@@ -277,7 +277,6 @@ footer {
     color: white;
     margin-left: 160px;
     width: 450px;
-}
   }
 }
 
@@ -292,9 +291,28 @@ footer {
     margin-left: 250px;
     margin-top: 35px;
   }
+  .box-player {
+    width: 400px;
+    height: 100px;
+    margin-bottom: -40px;
+    margin-left: 220px;
+  }
 }
 
 .avisos-footer {
-  text-decoration: none;
   color: white;
+  text-decoration: none;
 }
+
+.box-player {
+  margin-top: 20px;
+  width:550px;
+  height: 450px;
+}
+
+.player {
+  width: 100px;
+  height: 100px;
+}
+
+
