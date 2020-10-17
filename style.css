@@ -1,0 +1,300 @@
+* {
+  padding: 0;
+  margin: 0;
+      overflow-x: hidden;
+}
+/*INICIO MENU DESPLEGABLE*/
+
+.nav-enlaces {
+    display: inline-block;
+    background: none;
+    color: white ;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlaces:hover {
+  color: black;
+  background: red;
+}
+.nav-enlaces:active {
+  color: black;
+  background: red;
+}
+
+
+
+.menu {
+    background: none;
+    display: flex;
+    justify-content: space-around;
+    margin: -50px 310px;
+}
+
+.nav-boton {
+    background: none;
+    display: inline-block;
+    padding: 10px 0;
+    color: white;
+    display: none;
+}
+
+
+@media (max-width: 600px) {
+    .menu {
+        background: none;
+        flex-direction: column;
+        margin: 6px 1px;
+    }
+    .nav-boton {
+        display: inline-block;
+        display: none;
+    }
+    .desaparece {
+        display: none;
+    }
+    .nav-enlaces {
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      width: 250px;
+      margin: auto;
+}
+}
+
+/*FIN MENU DESPLEGABLE*/
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+nav {
+  background:red;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  padding: 20px 5px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 600px){
+  nav {
+    padding: 20px;
+    margin: 0;
+    padding-bottom: -0px;
+  }
+}
+
+
+
+.fa, .fas  {
+  font-weight: 900;
+  font-size: 25px;
+  color: white;
+  text-align: left;
+  margin-right: -520px;
+  background: red;
+  border: none;
+  visibility: hidden;
+}
+
+@media (max-width: 600px){
+  .fa, .fas {
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 290px;
+    font-size: 35px;
+    visibility: visible;
+  }
+}
+
+.no-you {
+  text-align: center;
+  margin: 10px 100px;
+}
+
+
+.fa, .fas:hover {
+  color:black;
+}
+
+.fa, .fas:active {
+  background: rgb (228, 228, 228);
+  color: red;
+}
+
+
+
+.titulonav1 {
+    margin-right: 300px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: -50px;
+    font-size: 35px;
+    padding: 10px;
+
+}
+
+.titulonav1:hover {
+  color: white;
+}
+
+
+/*    margin-right: 400px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: -300px;
+    font-size: 35px;
+    padding: 10px;*/
+
+@media (max-width: 600px){
+  .titulonav1 {
+    display: inline-block;
+    margin-right: 650px;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 20px;
+  }
+}
+
+.icono {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin-left: -800px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: -15px;
+}
+
+@media (max-width: 600px){
+  .icono {
+    width: 60px;
+    height: 65px;
+    position: relative;
+    margin-left: 10px;
+    margin-top: -15px;
+  }
+}
+
+
+
+.container {
+  margin-left: 300px;
+  margin-top: 40px;
+}
+@media (max-width: 600px){
+  .container {
+    margin-left: -185px;
+    zoom: 80%;
+    text-align: left;
+    margin-top: 50px;
+    font-size: 20px;
+  } 
+  .namemovie-reaptdown {
+    text-align: center;
+    margin-right: 100px;
+    font-size: 30px;
+  }
+}
+
+.namemovie-reaptown {
+  margin-top: 100px;
+  margin-left: 50px;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.img-reaptown {
+  margin-top: 30px;
+  margin-left: 250px;
+  width: 230px;
+  height: 300px;
+}
+@media (max-width: 600px){
+  .img-reaptown {
+    text-align: center;
+    display: inline-block;
+    margin-right: 200px;
+    margin-left: 300px;
+  }
+}
+
+
+.hola {
+  margin-top: 40px;
+  margin-right: 230px
+}
+
+@media (max-width: 600px){
+  .hola {
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 245px;
+  }
+}
+
+.movie-incrustada-reaptown {
+  margin-top: 50px;
+}
+
+@media (max-width: 600px){
+  .movie-incrustada-reaptown {
+    text-align: right;
+    width: 400px;
+    margin-left: 230px;
+  }
+}
+
+footer {
+  margin-top: 60px;
+    background: red;
+    text-align: center;
+    color: white;
+    margin-left: -360px;
+    height: 190px;
+    width: 1500px;
+    overflow: hidden;
+    margin-right: -2000px;
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.aclaracion {
+  text-align: center;
+  margin: 10px 300px;
+  font-size: 15px;
+}
+
+@media (max-width: 600px){
+  .aclaracion {
+    margin: 5px 5px;
+    font-size: 15px;
+  }
+  footer {
+    margin-top: 60px;
+    background: red;
+    text-align: center;
+    padding: 35px 15px;
+    padding-bottom: 10px;
+    color: white;
+    margin-left: 160px;
+    width: 450px;
+}
+  }
+}
+
+.no-you {
+  margin: auto;
+}
+
+@media (max-width: 600px){
+  .no-you {
+    width: 400px;
+    height: 250px;
+    margin-left: 250px;
+    margin-top: 35px;
+  }
+}
+
+.avisos-footer {
+  text-decoration: none;
+  color: white;
+}

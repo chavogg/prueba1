@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Watch ALa</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/4099277a03.js" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jwplayer.com/libraries/OJFEiNLG.js"></script>
+  </head>
+  <body>
+    <nav>
+    <button class="fas fa-bars" onclick="accion()"></button>
+    <h1 class="titulonav1"></h1>
+    <img class="icono" src="https://1.bp.blogspot.com/-CmBVkePFCq0/XsCdBdHldzI/AAAAAAAAAGU/IcclmTWZgCscwluYPzE9hrw4Qg6a0mTCgCK4BGAYYCw/s1600/LogoMakr_5CQWFM.png" alt="">
+          <nav class="menu">
+                <button class="nav-boton" onclick="accion()">Menu</button>
+                <a  href="index.html" class="nav-enlaces desaparece" >Inicio</a>
+                <a href="categorias.html" class="nav-enlaces desaparece" >Categorias</a>
+                <a href="#" class="nav-enlaces desaparece" >Acerca de</a>
+    </nav>
+    </nav>
+
+
+
+    <div class="container">
+      <h2 class="namemovie-reaptdown">Reaptown</h2>
+            <img class="img-reaptown" src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/wyN1R51euy3c2YHsyiSnc5ovF5t.jpg">
+            
+            <p class="hola">Carrie is freed from prison under the conditions of a work-release program in Reaptown. As she struggles to find her missing sister while working the night shift as a security guard, Carrie soon finds herself in the presence of evil.</p>
+
+            <p class="hola">Director: Dutch Marich<br>
+            Genero: Terror<br>
+            Actores: Brooke Bradshaw, Chrissie Carpenter, Dani Colleen</p>
+            <br>
+            <h3>Primer Opcion</h3>
+
+            <!--
+            <div id="player">
+            </div>
+            <script type="text/javascript">
+              jwplayer("player").setup({
+                file: "https://www.pelispedia.de/?trembed=0&trid=25567&trtype=1",
+                image: "ACA-EL-POSTER",
+                height: "300px",
+                width: "600px",
+                stretching: "exactfit",
+              });
+            </script>
+    </div>-->
+    
+    <footer>
+      <br>
+      <br>
+      <p>© WACH ALA - TODOS LOS DERECHOS RESERVADOS</p><br>
+      <p class="aclaracion">Este sitio no almacena ningún video en sus servidores, ni enlaza directamente, solo comparte contenido almacenado en sitios dedicados a compartir archivos de manera gratuita.</p>
+      <br>
+      <a class="avisos-footer" href="#">Politica de privacidad  |</a>
+      <a  class="avisos-footer" href="#">DMCA</a>
+    </footer>
+
+    <script>
+        function accion(){
+          console.log('hola');
+            var ancla = document.getElementsByClassName('nav-enlaces');
+            for(var i = 0; i < ancla.length; i++){
+                ancla[i].classList.toggle('desaparece');
+            }
+        }
+    </script>
+
+  </body>
+</html>
